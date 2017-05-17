@@ -25,7 +25,7 @@ import           Data.Hadoop.HdfsPath
 import           Data.Hadoop.Types
 import           Network.Hadoop.Hdfs hiding (runHdfs)
 
-import Hadoop.Tools.Configuration
+import           Hadoop.Tools.Configuration
 
 -- | Run @Hdfs@ actions, returning a result in IO. Differes from
 -- @Network.Hadoop.Hdfs@ by detecting namenode failover and attempting to

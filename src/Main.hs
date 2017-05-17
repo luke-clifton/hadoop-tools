@@ -43,9 +43,9 @@ import qualified Glob
 
 import           Paths_hadoop_tools (version)
 
-import Hadoop.Tools.Run
-import Hadoop.Tools.Options
-import Hadoop.Tools.Configuration
+import           Hadoop.Tools.Run
+import           Hadoop.Tools.Options
+import           Hadoop.Tools.Configuration
 
 ------------------------------------------------------------------------
 

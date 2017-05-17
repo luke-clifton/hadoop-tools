@@ -15,7 +15,7 @@ import           Data.Hadoop.HdfsPath
 import           Data.Hadoop.Types
 import           Network.Hadoop.Hdfs hiding (runHdfs)
 
-import Hadoop.Tools.Run
+import           Hadoop.Tools.Run
 
 completePath :: Mod ArgumentFields a
 completePath = completer (fileCompletion (const True)) <> metavar "PATH"
