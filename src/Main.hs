@@ -15,6 +15,7 @@ import           Data.Bits ((.&.), shiftL, shiftR)
 import           Data.ByteString (ByteString)
 import qualified Data.ByteString.Char8 as B
 import           Data.Maybe (fromMaybe)
+import           Data.Monoid
 import qualified Data.Text as T
 import qualified Data.Text.Encoding as T
 import qualified Data.Foldable as Foldable
